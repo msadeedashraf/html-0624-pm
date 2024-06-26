@@ -1,15 +1,12 @@
-LMS Link
-https://online.canadianbusinesscollege.com/d2l/le/content/9416/Home
-
 Setup and Installations
 https://code.visualstudio.com/download
-Extensions for VS Code
-Live Server
-Prettier
-VScode-icons
-Auto Close Tag
-Auto Complete Tag
-Auto Rename Tag
+Extensions for VS Code,
+Live Server,
+Prettier,
+VScode-icons,
+Auto Close Tag,
+Auto Complete Tag,
+Auto Rename Tag,
 CSS Formatter
 
 https://anydesk.com/en/downloads/windows

@@ -26,3 +26,6 @@ https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced
 https://developer.mozilla.org/en-US/docs/Learn/Forms
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 
+//To pickup your machine's IP address
+cmd 
+ipconfig

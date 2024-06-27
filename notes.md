@@ -29,3 +29,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
 //To pickup your machine's IP address
 cmd 
 ipconfig
+
+//stock Images repos
+
+https://unsplash.com/
+https://fontawesome.com/icons

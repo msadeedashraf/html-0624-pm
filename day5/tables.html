@@ -4,53 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th{
+            background-color: #4e4747;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(odd) {
+          background-color: #ee4848;
+        }
+        </style>
+
 </head>
+
 <body>
     <h1>Tables</h1>
 
-<table>
+<!-- <table>
     <th></th>
     <tr>
         <td>
-            
+
         </td>
     </tr>
 </table>
-
+ -->
 
     <table>
-        <th>List1</th>
-        <th>List2</th>
-        <th>List3</th>
-        <th>List3</th>
-        <th>List3</th>
-        <th>List3</th>
-        <th>List3</th>
+        <tr>
+            <th>List1</th>
+            <th>List2</th>
+            <th>List3</th>
+            <th>List3</th>
+            <th>List3</th>
+            <th>List3</th>
+            <th>List3</th>
+            
+        </tr>
 
         <tr>
           <td>15</td>
           <td>15</td>
           <td>30</td>
           <td>15</td>
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
         <tr>
           <td>45</td>
-          <td>60</td>
           <td>90</td>
+          <td>90</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+
         </tr>
         <tr>
             <td>45</td>
             <td>60</td>
             <td>90</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
           </tr>
 
           <tr>
               <td>60</td>
             <td>45</td>
             <td>45</td>
-            <td>90</td>
+           <td></td>
             <td>45</td>
             <td>45</td>
+            <td></td>
           </tr>
 
           <tr>
@@ -58,6 +98,9 @@
             <td>45</td>
             <td>60</td>
             <td>90</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
 
           <tr>
@@ -66,6 +109,7 @@
             <td>45</td>
             <td>60</td>
             <td>90</td>
+            <td></td><td></td>
           </tr>
   
 
@@ -84,6 +128,56 @@
           <td>135</td>
         </tr>
       </table> -->
+<hr>
+<br><br><br>
 
+      <table>
+        <tr>
+          <th></th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+          <th scope="row">Tickets sold</th>
+          <td>120</td>
+          <td>135</td>
+        </tr>
+        <tr>
+            <th scope="row">Tickets sold</th>
+            <td>120</td>
+            <td>135</td>
+          </tr>
+          <tr>
+            <th scope="row">Tickets sold</th>
+            <td>120</td>
+            <td>135</td>
+          </tr>
+      </table>
+
+      <hr>
+<br><br><br>
+<h1>Col Span</h1>
+<table>
+
+
+    <tr>
+      <th>Monday</th>
+      <td >Geography</td>
+      <td>Math</td>
+      <td colspan="3">Art</td>
+      <td>Science</td>
+      <td>History</td>
+
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <td >English</td>
+      <td >Geography</td>
+      <td>Math</td>
+      <td>Art</td>
+      <td>Science</td>
+      <td>History</td>
+    </tr>
+</table>
 </body>
 </html>

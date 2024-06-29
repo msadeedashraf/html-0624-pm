@@ -1,0 +1,30 @@
+body {
+    background-color: lightcoral;
+}
+h1 {
+
+    color: grey;
+}
+h2{
+
+    background-color: blueviolet;
+}
+p {
+
+    font-style: italic; text-align: right;
+}
+table {
+
+    width: 100%;
+    border: 1px solid black; 
+    border-radius: 10px;
+}
+th {
+
+    border: 1px solid black;
+     border-radius: 10px;
+}
+td {
+    border: 1px solid black; 
+    border-radius: 10px;
+}

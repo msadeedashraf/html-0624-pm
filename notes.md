@@ -34,3 +34,4 @@ ipconfig
 
 https://unsplash.com/
 https://fontawesome.com/icons
+https://fontawesome.com/search?q=pin&o=r&f=brands

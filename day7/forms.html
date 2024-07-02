@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Forms</h1>
+<form action="">
+
+
+    <label for="username"> Username :  </label>
+    <input type="text" name="username" maxlength="20">
+    <br>
+    <label for="username"> Password :  </label>
+    <input type="password" name="password" id="_password" >
+    <br>
+    <label for="username"> Comments :  </label>
+    <textarea name="comments"
+    cols="20" rows="4">
+    Enter your text here...
+</textarea>
+    <br>
+    <p>Your favorite genre:<br />
+
+        <input type="radio" name="genre"
+          value="rock" checked="checked" /> Rock
+       
+        <input type="radio" name="genre"
+          value="pop"  /> Pop
+       
+        <input type="radio" name="genre"
+          value="jazz" /> Jazz
+       
+       </p>
+
+       
+       <p>Your favorite music service:<br />
+        <input type="checkbox" name="service"
+         value=""
+         checked="checked" /> iTunes
+       
+        <input type="checkbox" name="service"
+         value="Last.fm" /> Last.fm
+       
+        <input type="checkbox" name="service"
+         value="Spotify" /> Spotify
+       </p>
+
+
+       <select name="devices">
+
+        <option value="iPod"
+         selected="selected">iPod</option>
+       
+        <option value="radio">Radio</option>
+       
+        <option value="PC">Computer</option>
+       
+       </select>
+
+       <select name="contries" id="" size="3">
+<option value="ca">Canada</option>
+<option  value="us">United States</option>
+<option value="uk">United Kingdom</option>
+<option selected="selected"  value="au">Aus</option>
+<option value="jp">Japan</option>
+<option value="br">Brazil</option>
+
+
+       </select>
+
+
+       <select name="devices" size="4">
+
+        <option value="guitar"
+          selected="selected">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keys"
+         selected="selected">Keyboard</option>
+        <option value="bass">Bass</option>
+       
+       </select>
+
+       <p>Upload your song in MP3 format:</p>
+
+ <input type="file" name="user-song" />
+ <br>
+
+ <input type="submit" value="upload" />
+ <br>
+ <p>Subscribe to our email list:</p>
+
+ <input type="text" name="email" />
+
+ <input type="submit"
+        value="Subscribe" />
+
+        <p>Subscribe to our email list:</p>
+
+ <input type="text" name="email" />
+
+ <input type="image"
+    src="/images/suscribe.png"
+    width="150" height="30" />
+
+    <button>
+        <img src="/images/suscribe.png" alt="add"
+         width="150" height="70" />
+      </button>
+
+
+
+        
+
+</form>
+
+
+<hr>
+<br><br>
+
+<h1>Form 2</h1>
+<form action="">
+
+    <label>Age:
+        <input type="text" name="Age" /></label>
+       Gender:
+       <input id="female" type="radio"
+          name="gender" value="f" />
+       <label for="female">Female</label>
+       <input id="male" type="radio"
+          name="gender" value="m" />
+       <label for="female">Male</label>
+</form>
+
+
+<fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br />
+    <input type="text" name="email"></label>
+    <br />
+    <label>Mobile:<br />
+    <input type="text" name="mobile"></label>
+    <br />
+    <label>Telephone:<br />
+    <input type="text" name="tel"></label>
+   </fieldset>
+   <hr>
+   <br><br>
+   
+   <h1>Login</h1>
+
+   
+   <form action="" method="post">
+   
+   <label for="username">Username:</label>
+    <input type="text" name="username"
+     required="required" />
+    
+     <br><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password"
+     required="required" />
+     <br><br>
+    <input type="submit" value="Submit" />
+   </form>
+   <hr>
+   <br><br>
+   
+   
+
+   <form action="" method="post">
+   
+    <label for="date">Departure date:</label>
+
+    <input type="date" name="depart"
+     id="date" />
+     <br><br>
+     
+     <label for="email">Email:</label>
+     <input type="email" name="email" />
+     <br><br>
+     <label for="website">Url:</label>
+     <input type="url" name="website" />
+     <br><br>
+     
+     <input type="submit" value="Submit" />
+     <br><br>
+     <input type="search" name="search"
+ placeholder="Enter keyword" />
+
+<input type="submit" value="Search" />
+</form>
+
+    <br><br><br><br><br><br>
+
+
+
+
+</body>
+</html>

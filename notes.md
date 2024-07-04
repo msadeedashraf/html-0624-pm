@@ -48,3 +48,16 @@ CSS
 https://www.turing.com/kb/what-goes-behind-writing-a-flawless-css-code
 https://daily.dev/blog/css-best-practices-for-clean-code
 https://medium.com/@Crazy_Dev/the-ultimate-guide-to-writing-clean-and-effective-css-code-db73c1337c8b
+
+
+Color
+https://coolors.co/
+https://wave.webaim.org/
+
+
+
+Icons
+https://feathericons.com/
+
+Extenstions for chrome
+

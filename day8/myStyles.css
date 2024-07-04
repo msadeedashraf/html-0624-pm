@@ -1,0 +1,34 @@
+p.main-heading
+{
+
+    color: red;
+
+}
+h1.main-heading
+{
+
+    color:blue;
+
+}
+
+
+p#main-h2
+{
+
+    color: rgb(34, 178, 15);
+
+}
+h2#main-h2
+{
+
+    color:rgb(255, 0, 115);
+
+}
+#main-h2
+{
+    text-align: center;
+}
+.main-heading
+{
+    text-align: right;
+}

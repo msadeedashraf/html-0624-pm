@@ -35,3 +35,16 @@ ipconfig
 https://unsplash.com/
 https://fontawesome.com/icons
 https://fontawesome.com/search?q=pin&o=r&f=brands
+
+
+Music to download
+https://pixabay.com/music/
+https://pixabay.com/images/search/developer/
+
+sample projects on code pen
+https://codepen.io/celincky/pen/abPjZb
+
+CSS 
+https://www.turing.com/kb/what-goes-behind-writing-a-flawless-css-code
+https://daily.dev/blog/css-best-practices-for-clean-code
+https://medium.com/@Crazy_Dev/the-ultimate-guide-to-writing-clean-and-effective-css-code-db73c1337c8b

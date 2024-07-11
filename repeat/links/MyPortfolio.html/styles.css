@@ -1,0 +1,30 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+font-size: 18px;
+
+}
+
+.navbar a:hover
+{
+background-color: orange;
+color: black;
+}
+footer
+{
+    background-color: #524e4e;
+    text-align: center;
+    color: white;
+}
+
+
+

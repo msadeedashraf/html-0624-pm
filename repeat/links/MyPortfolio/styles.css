@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #003554;
+}
+.navbar a {
+
+color: rgb(227, 225, 225);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+font-size: 18px;
+
+}
+
+.navbar a:hover
+{
+background-color: #EFEFD0    ;
+color: black;
+}
+footer
+{
+    background-color: #003554;
+    text-align: center;
+    color: rgb(227, 225, 225);
+}
+
+
+.navbar a.active {
+    background-color: #004E89;
+    color: rgb(227, 225, 225);}
+
+

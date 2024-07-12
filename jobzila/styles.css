@@ -187,6 +187,43 @@ padding: 20px;
 
 /*End of Terms page styles*/
 
+/*Start of Job Listing page styles*/
+.joblist-div
+{
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+#joblist-section
+ {
+padding: 20px;
+
+ }
+ 
+ #joblist-section h2
+ {
+    margin-bottom: 10px;
+
+ }
+ .job-listing {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+
+ }
+ .learn-more {
+    text-align: right;
+ }
+
+/*End of Job Listing page styles*/
+
+
+
+
 
 
 
